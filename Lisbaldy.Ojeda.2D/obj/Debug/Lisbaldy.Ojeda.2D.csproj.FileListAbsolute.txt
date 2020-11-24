@@ -1,0 +1,14 @@
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\bin\Debug\Lisbaldy.Ojeda.2D.exe.config
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\bin\Debug\Lisbaldy.Ojeda.2D.exe
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\bin\Debug\Lisbaldy.Ojeda.2D.pdb
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda.2D.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda._2D.HomeForm.resources
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda._2D.Properties.Resources.resources
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda.2D.csproj.GenerateResource.cache
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda.2D.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda.2D.exe
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda.2D.pdb
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\bin\Debug\Entities.dll
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\bin\Debug\Entities.pdb
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda._2D.AddOrderForm.resources
+C:\Users\usuario\Documents\Sistemas-UTN\2do cuatrimestre\Programación II y Laboratorio II\Segundo_Parcial\Lisbaldy.Ojeda.2D\obj\Debug\Lisbaldy.Ojeda.2D.csproj.CopyComplete
