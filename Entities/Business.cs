@@ -57,7 +57,7 @@ namespace Entities
                 readyOrdersQueue.Enqueue(auxOrder);
                 try
                 {
-                    if(auxOrder.DeliveryAddress is null)
+                    if (auxOrder.DeliveryAddress is null)
                     {
                         DataBase.InsertarProducto(auxOrder.TotalPrice, auxOrder.Delivery, "");
                     }
@@ -65,12 +65,28 @@ namespace Entities
                     {
                         DataBase.InsertarProducto(auxOrder.TotalPrice, auxOrder.Delivery, auxOrder.DeliveryAddress);
                     }
+
+                    TicketGeneratorHandler(auxOrder);
                 }
                 catch (FailSqlOpException ex)
                 {
                     throw new FailSqlOpException(ex.Message);
                 }
             }
+        }
+
+        public static void TicketGeneratorHandler(Order order)
+        {
+            if (order.Delivery)
+            {
+                Files<Order> fileWriter = new Files<Order>();
+                fileWriter.ticketGenerator(order, TicketNameGenerator(order.Id));
+            }
+        }
+
+        public static string TicketNameGenerator(int id)
+        {
+            return $"Order ID {id}";
         }
     }
 }
