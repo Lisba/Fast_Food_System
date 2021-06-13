@@ -88,6 +88,26 @@ namespace Lisbaldy.Ojeda._2D
             }
         }
 
+        private void chBoxDeliveryAddress_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.chBoxDeliveryAddress.Checked)
+            {
+                this.delivery = true;
+                this.txtAddressOrder.Visible = true;
+                this.txtHeightOrder.Visible = true;
+                this.lblStreetAddress.Visible = true;
+                this.lblHeightAddress.Visible = true;
+            }
+            else
+            {
+                this.delivery = false;
+                this.txtAddressOrder.Visible = false;
+                this.txtHeightOrder.Visible = false;
+                this.lblStreetAddress.Visible = false;
+                this.lblHeightAddress.Visible = false;
+            }
+        }
+
         private void btnMakeOrderAddress_Click(object sender, EventArgs e)
         {
             orderEvent.Invoke();
@@ -184,26 +204,6 @@ namespace Lisbaldy.Ojeda._2D
             }
 
             return returnValue;
-        }
-
-        private void chBoxDeliveryAddress_CheckedChanged(object sender, EventArgs e)
-        {
-            if (this.chBoxDeliveryAddress.Checked)
-            {
-                this.delivery = true;
-                this.txtAddressOrder.Visible = true;
-                this.txtHeightOrder.Visible = true;
-                this.lblStreetAddress.Visible = true;
-                this.lblHeightAddress.Visible = true;
-            }
-            else
-            {
-                this.delivery = false;
-                this.txtAddressOrder.Visible = false;
-                this.txtHeightOrder.Visible = false;
-                this.lblStreetAddress.Visible = false;
-                this.lblHeightAddress.Visible = false;
-            }
         }
 
         private string ConcatStreetHeightAddress()
